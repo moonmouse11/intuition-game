@@ -34,9 +34,6 @@ intuition/
 ├── index.html      # Разметка
 ├── style.css       # Стили
 ├── app.js          # Игровая логика
-├── select.mp3      # Звук выбора
-├── positive.mp3    # Звук успеха
-├── negative.mp3    # Звук промаха
 └── README.md
 ```
 
@@ -56,7 +53,7 @@ npx serve .
 
 ## Настройка вопросов
 
-Список утверждений задаётся в массиве `items` в файле `app.js`:
+Список вариантов задаётся в массиве `items` в файле `app.js`:
 
 ```js
 const items = [
