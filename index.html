@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Интуиция</title>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&family=Exo+2:wght@400;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="scanlines"></div>
+
+    <div class="neon-sign" id="neonSign">
+        <div class="neon-frame">
+            <div class="neon-text" id="neonText">ИНТУИЦИЯ</div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="container" id="container">
+            <div class="table" id="table"></div>
+        </div>
+    </div>
+
+    <div class="footer-help" id="footerHelp">
+        <div class="fh-item"><kbd>1</kbd>–<kbd>9</kbd> выбрать</div>
+        <div class="fh-item"><kbd>Y</kbd> угадал</div>
+        <div class="fh-item"><kbd>N</kbd> не угадал</div>
+        <div class="fh-item"><kbd>Space</kbd> сдвиг</div>
+        <div class="fh-item"><kbd>R</kbd> сброс</div>
+        <div class="fh-item"><kbd>H</kbd> подсказки</div>
+    </div>
+
+    <div class="toast" id="toast"></div>
+
+    <!-- Sound effects -->
+    <audio id="sndSelect" src="src/select.mp3" preload="auto"></audio>
+    <audio id="sndPositive" src="src/positive.mp3" preload="auto"></audio>
+    <audio id="sndNegative" src="src/negative.mp3" preload="auto"></audio>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
