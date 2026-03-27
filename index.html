@@ -27,15 +27,24 @@
     </div>
 
     <div class="footer-help" id="footerHelp">
-        <div class="fh-item"><kbd>1</kbd>–<kbd>9</kbd> выбрать</div>
+        <div class="fh-item"><kbd>1</kbd>–<kbd>9</kbd> выбрать вариант</div>
         <div class="fh-item"><kbd>Y</kbd> угадал</div>
         <div class="fh-item"><kbd>N</kbd> не угадал</div>
-        <div class="fh-item"><kbd>Space</kbd> сдвиг</div>
-        <div class="fh-item"><kbd>R</kbd> сброс</div>
+        <div class="fh-item"><kbd>Space</kbd> список в центр / влево</div>
+        <div class="fh-item"><kbd>R</kbd> новая игра</div>
+        <div class="fh-item"><kbd>Esc</kbd> пауза</div>
         <div class="fh-item"><kbd>H</kbd> подсказки</div>
     </div>
 
-    <div class="toast" id="toast"></div>
+    <!-- Intro screen -->
+    <div class="intro-screen" id="introScreen">
+        <div class="intro-neon-frame">
+            <div class="intro-neon-text">ИНТУИЦИЯ</div>
+        </div>
+    </div>
+
+    <!-- Fireworks -->
+    <canvas id="fireworksCanvas"></canvas>
 
     <!-- Sound effects -->
     <audio id="sndSelect" src="src/select.mp3" preload="auto"></audio>
